@@ -1,3 +1,4 @@
 from django.contrib import admin
+from ecom_app.models import Product, Catagory, Customer, Order
 
-# Register your models here.
+admin.sites.register(Product)
